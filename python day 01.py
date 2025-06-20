@@ -1,3 +1,3 @@
-# Example: User enters "1 2 3 4 5"
-numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
-print(numbers)
+for i in range(1,11):
+    table=i*2
+    print("2*",i,"=",table)
